@@ -2,5 +2,9 @@
   "name": "yo-demo",
   "version": "1.0.0",
   "main": "index.js",
+  "workspace": [
+    "generator-demo"
+  ],
+  "keywords": [ "yeoman-generator" ],
   "license": "MIT"
 }
