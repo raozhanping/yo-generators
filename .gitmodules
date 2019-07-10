@@ -1,3 +1,6 @@
 [submodule "generator-webapp"]
 	path = generator-webapp
 	url = https://github.com/yeoman/generator-webapp.git
+[submodule "generator-jhipster-vuejs"]
+	path = generator-jhipster-vuejs
+	url = https://github.com/pengiundev/generator-jhipster-vuejs.git
