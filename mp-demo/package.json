@@ -1,0 +1,17 @@
+{
+  "name": "project-name",
+  "version": "0.0.1",
+  "license": "MIT",
+  "engines": {
+    "node": ">=8.9"
+  },
+  "scripts": {
+    "dev": "builder watch",
+    "build": "builder build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "fetch-jsonp": "^1.1.3",
+    "seapp-builder": "^0.0.1"
+  }
+}

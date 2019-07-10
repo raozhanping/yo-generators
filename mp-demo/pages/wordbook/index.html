@@ -1,0 +1,16 @@
+<div>
+  <ul class="tabs">
+    <li>
+      <router-link to="/">查单词</router-link>
+    </li>
+    <li>
+      <router-link to="/pages/wordbook/index">单词本</router-link>
+    </li>
+  </ul>
+  <ol class="word-inputer" v-if="words.length">
+    <li v-for="(item, index) in words" :key="index">
+      {{item}}
+      <router-link :to="{path:'/',query:{word:item}}">【查词】</router-link>
+    </li>
+  </ol>
+</div>

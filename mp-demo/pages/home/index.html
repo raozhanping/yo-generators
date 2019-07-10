@@ -1,0 +1,22 @@
+<div>
+  <ul class="tabs">
+    <li>
+      <router-link to="/">查单词</router-link>
+    </li>
+    <li>
+      <router-link to="/pages/wordbook/index">单词本</router-link>
+    </li>
+    <li>
+      <router-link to="/pages/demo/index">组件与api通信机制测试</router-link>
+    </li>
+  </ul>
+  <div class="word-inputer">
+    请输入英文单词：
+    <input ref="word" type="text" @keydown="input" :value="this.nowWord">
+  </div>
+  <div class="word-desc" v-if="showTranslate==true">中文释义：{{wordDesc.fanyi}}</div>
+  <div class="word-ops" v-if="showTranslate==true">
+    <span @click="addWordBook">加入单词本`</span>
+  </div>
+  <canvas id="myCanvas" width="300" height="150" style="border:1px solid #d3d3d3;"></canvas>
+</div>
