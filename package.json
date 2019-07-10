@@ -5,6 +5,8 @@
   "workspace": [
     "generator-demo"
   ],
-  "keywords": [ "yeoman-generator" ],
+  "keywords": [
+    "yeoman-generator"
+  ],
   "license": "MIT"
 }
